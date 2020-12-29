@@ -1,0 +1,25 @@
+body {
+  background-color: #53b3cb;
+}
+
+.App {
+  max-width: 600px;
+  margin: auto;
+}
+
+header {
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-shadow: 7px 7px 10px #0c090d;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f15946;
+  color: white;
+  text-align: center;
+}

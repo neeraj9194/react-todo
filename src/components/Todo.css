@@ -1,0 +1,79 @@
+.todo-card {
+  display: flex;
+  flex-direction: row;
+  padding: 16px;
+  background-color: #f9c22e;
+  border-radius: 5px;
+  margin: 10px;
+  overflow-wrap: anywhere;
+}
+
+.todo-stats {
+  margin: 0 10px;
+  padding: 0 16px;
+  border-radius: 5px;
+  color: white;
+  text-align: end;
+}
+
+.todo-card > div:last-child {
+  margin-left: auto;
+}
+
+.todo-input {
+  justify-content: end;
+}
+
+.todo-icon {
+  background-color: #f15946;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.todo-icon:hover {
+  color: white;
+  box-shadow: 2px 2px 2px #0c090d;
+
+  /* Box shadow leaves a line in chrome */
+  -webkit-transform: translateZ(0);
+}
+
+.todo-text,
+.todo-input input {
+  padding-left: 16px;
+  color: #0c090d;
+}
+
+.check-icon {
+  color: #f15946;
+}
+
+.check-icon:hover,
+.check-icon-checked {
+  color: white;
+}
+
+.todo-text-done {
+  text-decoration: line-through;
+  color: #7e7b7b;
+}
+
+form {
+  width: 100%;
+}
+
+.todo-input input[type="text"],
+.todo-input input[type="text"]:focus {
+  /* Body font */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background: transparent;
+  border: none;
+  outline-width: 0;
+  width: 98%;
+}
