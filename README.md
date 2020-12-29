@@ -13,4 +13,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### Screenshot
 
-![Todo](/docs/todo.png "Todo")
+![todo](docs/todo.PNG "todo")
